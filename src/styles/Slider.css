@@ -1,0 +1,20 @@
+.sliderBox {
+    display: flex;
+    width: 700px;
+    height: 480px;
+}
+
+.sliderImg{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.sliderImg:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
